@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SimpleWeatherIFX</string>
+    <string name="search_hint">Search for city…</string>
+
+    <string name="city_country">%1s, %2s</string>
+    <string name="temperature_celsius">%1$.0f \u2103</string>
+    <string name="feels_like">Feels like %1$.0f \u2103</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="temperature">Temperature</string>
+    <string name="degrees_celsius">\u2103</string>
+    <string name="humidity">Humidity</string>
+    <string name="percent" formatted="false">%</string>
+    <string name="uv_index">UV Index</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="metres_per_second">m/s</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="mm_per_hour">mm/hr</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="air_quality_index">Air quality index</string>
+    <string name="datetime">Datetime</string>
+</resources>

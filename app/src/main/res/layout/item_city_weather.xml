@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp"
+    app:contentPadding="16dp"
+    app:cardCornerRadius="6dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardElevation="4dp"
+    android:foreground="?selectableItemBackground">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:clickable="false"
+        android:focusable="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/txt_city_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                app:fontFamily="@font/ubuntu_medium"
+                tools:text="New York City" />
+
+            <TextView
+                android:id="@+id/txt_descr"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:maxLines="1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                app:fontFamily="@font/ubuntu_light"
+                android:layout_marginVertical="8dp"
+                tools:text="Scattered clouds" />
+
+            <TextView
+                android:id="@+id/txt_feels_like"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:maxLines="1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                app:fontFamily="@font/ubuntu_light"
+                tools:text="Feels like" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            app:fontFamily="@font/ubuntu_light"
+            tools:text="15 C" />
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
